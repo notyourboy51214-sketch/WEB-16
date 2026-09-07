@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MONZA | EUROPEAN & EXOTIC PRECISION POWERTRAIN ENGINEERING</title>
+  <meta name="description" content="Dealership-surpassing diagnostic telematics, twin-turbo rebuilds, carbon-ceramic brake systems, and precision corner-balancing chassis tuning for Porsche, BMW M, Audi Sport, and Ferrari.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating Navigation -->
+  <div class="nav-wrapper">
+    <nav class="navbar">
+      <div class="brand-group">
+        <span class="brand-name">MONZA</span>
+        <span class="brand-badge">MASTER MECHANICAL LAB</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#section-0" class="nav-link">Exotic Diagnostics</a></li>
+        <li><a href="#section-1" class="nav-link">Powertrain Labs</a></li>
+        <li><a href="#section-2" class="nav-link">Track Prep</a></li>
+        <li><a href="#section-3" class="nav-link">Service Diagnostician</a></li>
+      </ul>
+      <a href="#calculator" class="btn-pill">
+        <span>Book Track Service</span>
+        <span class="btn-icon-circle">↗</span>
+      </a>
+    </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="eyebrow-pill">
+          <span class="pulse-dot"></span>
+          <span>MASTER MECHANICAL LAB</span>
+        </div>
+        <h1 class="hero-title">EUROPEAN & EXOTIC PRECISION POWERTRAIN ENGINEERING</h1>
+        <p class="hero-desc">Dealership-surpassing diagnostic telematics, twin-turbo rebuilds, carbon-ceramic brake systems, and precision corner-balancing chassis tuning for Porsche, BMW M, Audi Sport, and Ferrari.</p>
+        <div class="hero-actions">
+          <a href="#calculator" class="btn-pill">
+            <span>Explore Technical Specifications</span>
+            <span class="btn-icon-circle">↗</span>
+          </a>
+          <a href="#services" class="btn-pill" style="background: rgba(255,255,255,0.06); color: var(--text-main); border: 1px solid var(--border);">
+            <span>Our Disciplines</span>
+            <span class="btn-icon-circle">↓</span>
+          </a>
+        </div>
+      </div>
+      <div class="bezel-outer hero-image-wrap">
+        <img src="assets/hero.jpg" alt="MONZA Hero Presentation" class="hero-img" loading="eager">
+      </div>
+    </div>
+  </header>
+
+  <!-- Interactive Simulator Section -->
+  <section id="calculator" class="section">
+    <div class="section-header">
+      <div class="eyebrow-pill">INTERACTIVE SIMULATOR</div>
+      <h2 class="section-title">OBD-II Telemetry & Scheduled Maintenance Selector</h2>
+      <p class="section-subtitle">Lookup factory-prescribed service intervals, Motul fluid specifications, and ECU diagnostic protocols for European marques.</p>
+    </div>
+    
+    <div class="bezel-outer">
+      <div class="bezel-inner">
+        <div class="calc-box">
+          <div class="calc-inputs">
+            
+            <div class="input-group">
+              <label class="input-label" for="vehicleMarque">Marque & Platform</label>
+              <select id="vehicleMarque" class="select-styled">
+                <option value="Porsche 911 / GT3 / Cayman">Porsche 911 / GT3 / Cayman</option>
+                <option value="BMW M2 / M3 / M5 / M8">BMW M2 / M3 / M5 / M8</option>
+                <option value="Audi RS3 / RS6 / R8 V10">Audi RS3 / RS6 / R8 V10</option>
+                <option value="Mercedes-AMG BiTurbo V8">Mercedes-AMG BiTurbo V8</option>
+                <option value="Ferrari / McLaren Exotic">Ferrari / McLaren Exotic</option>
+              </select>
+            </div>
+  
+
+            <div class="input-group">
+              <label class="input-label" for="serviceType">Required Mechanical Scope</label>
+              <select id="serviceType" class="select-styled">
+                <option value="Major 40k/60k Milestone Service">Major 40k/60k Milestone Service</option>
+                <option value="IMS Bearing & Rear Main Seal">IMS Bearing & Rear Main Seal</option>
+                <option value="Carbon Cleaning & Turbo Smoke Testing">Carbon Cleaning & Turbo Smoke Testing</option>
+                <option value="PCCB Carbon Ceramic Brake Refurbishment">PCCB Carbon Ceramic Brake Refurbishment</option>
+                <option value="Track Suspension Corner Balancing">Track Suspension Corner Balancing</option>
+              </select>
+            </div>
+  
+
+            <div class="input-group">
+              <label class="input-label" for="fluidPackage">Lubricant & Fluid Standard</label>
+              <select id="fluidPackage" class="select-styled">
+                <option value="Motul 300V Motorsport Synthetic">Motul 300V Motorsport Synthetic</option>
+                <option value="OEM Factory Spec Fluid Flush">OEM Factory Spec Fluid Flush</option>
+                <option value="Castrol SRF High-Temp Racing Brake Fluid">Castrol SRF High-Temp Racing Brake Fluid</option>
+              </select>
+            </div>
+  
+          </div>
+          <div class="calc-output-card">
+            <div class="eyebrow-pill">SYSTEM DIAGNOSTIC</div>
+            <div id="calc-result-text" class="calc-output-val">INITIALIZING DATA...</div>
+            <p id="calc-result-desc" style="color: var(--text-muted); font-size: 0.95rem;">Select your parameters to run simulated load telemetry.</p>
+            <div style="margin-top: 24px;">
+              <a href="tel:8886669201" class="btn-pill">
+                <span>Direct Line: (888) 666-9201</span>
+                <span class="btn-icon-circle">📞</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services / Disciplines Bento Grid -->
+  <section id="services" class="section">
+    <div class="section-header">
+      <div class="eyebrow-pill">CORE DISCIPLINES</div>
+      <h2 class="section-title">Engineered Capabilities</h2>
+      <p class="section-subtitle">Exacting technical standards without compromise or shortcuts.</p>
+    </div>
+    <div class="services-grid">
+      
+        <div class="bezel-outer">
+          <div class="bezel-inner service-card">
+            <h3>Dealer-Level PIWIS & ISTA Diagnostics</h3>
+            <p>Direct OEM factory diagnostic computers reading deep freeze-frame ECU fault codes and live sensor waveforms.</p>
+          </div>
+        </div>
+  
+
+        <div class="bezel-outer">
+          <div class="bezel-inner service-card">
+            <h3>Performance Engine Blueprinting</h3>
+            <p>Forged internal balancing, turbocharger balancing, and head gasket precision machining in a climate-controlled engine lab.</p>
+          </div>
+        </div>
+  
+
+        <div class="bezel-outer">
+          <div class="bezel-inner service-card">
+            <h3>Beissbarth Laser Alignment</h3>
+            <p>Sub-millimeter toe, camber, and caster chassis alignment with driver-ballast weight simulation for track days.</p>
+          </div>
+        </div>
+  
+
+        <div class="bezel-outer">
+          <div class="bezel-inner service-card">
+            <h3>Warranty-Compliant Logbook Service</h3>
+            <p>100% factory original OEM parts and documented maintenance records that protect vehicle resale and warranty.</p>
+          </div>
+        </div>
+  
+    </div>
+  </section>
+
+  <!-- Visual Portfolio Showcase -->
+  <section class="section">
+    <div class="section-header">
+      <div class="eyebrow-pill">ARCHITECTURAL PORTFOLIO</div>
+      <h2 class="section-title">Verified Field Executions</h2>
+      <p class="section-subtitle">A visual chronicle of bespoke installations and documented case studies.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="bezel-outer gallery-card"><img src="assets/gallery1.jpg" alt="MONZA Portfolio 1" loading="lazy"></div>
+      <div class="bezel-outer gallery-card"><img src="assets/gallery2.jpg" alt="MONZA Portfolio 2" loading="lazy"></div>
+      <div class="bezel-outer gallery-card"><img src="assets/gallery3.jpg" alt="MONZA Portfolio 3" loading="lazy"></div>
+      <div class="bezel-outer gallery-card"><img src="assets/gallery4.jpg" alt="MONZA Portfolio 4" loading="lazy"></div>
+    </div>
+  </section>
+
+  <!-- Client Testimonials -->
+  <section class="section">
+    <div class="section-header">
+      <div class="eyebrow-pill">PEER VERIFICATION</div>
+      <h2 class="section-title">Reputation Built On Precision</h2>
+      <p class="section-subtitle">Unfiltered feedback from executive clients and architectural collaborators.</p>
+    </div>
+    <div class="testimonials-grid">
+      
+        <div class="bezel-outer">
+          <div class="bezel-inner testimonial-card">
+            <blockquote>"MONZA tuned and corner-balanced my 991.2 GT3 RS. The car is completely transformed on apex entry. The only shop I trust."</blockquote>
+            <div class="testimonial-author">Julian Rossi</div>
+            <div class="testimonial-role">PCA Club Racing Champion</div>
+          </div>
+        </div>
+  
+
+        <div class="bezel-outer">
+          <div class="bezel-inner testimonial-card">
+            <blockquote>"Their transparency and mechanical precision put authorized dealerships to complete shame."</blockquote>
+            <div class="testimonial-author">Derek Sterling</div>
+            <div class="testimonial-role">Collector (E39 M5 & 993 Turbo)</div>
+          </div>
+        </div>
+  
+    </div>
+  </section>
+
+  <!-- Global Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4>MONZA</h4>
+        <p>Dealership-surpassing diagnostic telematics, twin-turbo rebuilds, carbon-ceramic brake systems, and precision corner-balancing chassis tuning for Porsche, BMW M, Audi Sport, and Ferrari.</p>
+        <div style="font-size: 0.9rem; color: var(--accent); font-weight: 600;">
+          Direct Dispatch: (888) 666-9201<br>
+          Secure Communications: service@monza-mechanics.com
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Operations HQ</h5>
+        <ul>
+          <li>80 Paddock Lane, Autodrome Tech Center</li>
+          <li>Licensed & Insured</li>
+          <li>24/7 Priority Readiness</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Standards</h5>
+        <ul>
+          <li>ISO-9001 Quality Control</li>
+          <li>Zero Sub-Contract Policy</li>
+          <li>Dedicated Project Director</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 MONZA Guild. All rights reserved. Precision architectural web execution.
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
